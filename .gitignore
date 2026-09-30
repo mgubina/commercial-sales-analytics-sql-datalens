@@ -1,0 +1,32 @@
+# === Очередь Windows и macOS ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# === Excel ===
+# Игнорируем временные файлы, которые создаются при открытии книг
+~$*.xlsx
+~$*.xls
+~$*.xlsm
+*.tmp
+
+# === Power BI ===
+# Игнорируем пользовательские настройки макета и локальный кэш данных
+*.pbi
+*.user
+UserChoices.xml
+📊_DataModifier/
+
+# === СУБД и DBeaver ===
+# Игнорируем локальные конфигурации подключения, историю твоих личных запросов и кэш базы
+.dbeaver/
+*.log
+DBeaverData/
+.data-sources/
+🔒_credentials/
+
+# === Yandex Cloud и DataLens ===
+# На случай, если локально сохранялись сервисные ключи или токены подключения к облаку
+.yc/
+*.json_key
+config.yaml
